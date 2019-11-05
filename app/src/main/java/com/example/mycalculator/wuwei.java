@@ -8,7 +8,7 @@ import java.util.Deque;
 import java.util.Iterator;
 import java.util.List;
 
-public class zhan {
+public class wuwei {
     public static BigDecimal calculator(List list){
         Deque<BigDecimal> deque = new ArrayDeque<>();
 try {

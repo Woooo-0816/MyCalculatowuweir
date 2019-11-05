@@ -255,9 +255,9 @@ public class MainActivity extends AppCompatActivity {
                 try{
                     String middle=txt.getText().toString();
                     char[] mid = middle.toCharArray();
-                    mid = zhan.cutString(mid);
-                    List list = zhan.transferToBehind(mid);
-                    BigDecimal comeOut = zhan.calculator(list);
+                    mid = wuwei.cutString(mid);
+                    List list = wuwei.transferToBehind(mid);
+                    BigDecimal comeOut = wuwei.calculator(list);
                     txt.setText(comeOut.toString());
                 } catch (Exception e) {
                     e.printStackTrace();
